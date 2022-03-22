@@ -57,6 +57,7 @@ export default {
 } */
 .navbar {
   font-family: "Nunito", sans-serif;
+
   /* background-color: antiquewhite; */
 }
 .navbar-light .bg-light {
