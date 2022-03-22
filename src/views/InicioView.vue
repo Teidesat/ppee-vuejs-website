@@ -117,6 +117,7 @@
             src="../assets/images/PATROCINADORES_2_1.png"
           />
         </div>
+        <i></i>
       </div>
     </div>
     <!-- <a class="btn btn-sm fade-half back-to-top inner-link" href="#"
