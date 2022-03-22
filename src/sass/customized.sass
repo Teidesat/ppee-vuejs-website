@@ -1,0 +1,103 @@
+@import "spacing.sass"
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"
+
+$primary: #487eec,
+$nav-link-light: #487ef6
+$nav-link-hover-light: #52e2aa
+$nav-link-active-light: #19e6b9
+
+.navbar-light .navbar-nav .nav-link
+  color: $nav-link-light
+
+.navbar .nav-item:hover .nav-link
+  color: $nav-link-hover-light
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active
+  color: $nav-link-hover-light
+
+body, html, #app
+  height: 100%
+  margin: 0
+  font-family: "Raleway",sans-serif
+  font-size: 16px
+  line-height: 1.42857143
+  color: #333
+  overflow-x: hidden
+
+.parallax
+  min-height: 100%
+
+  position: relative
+  // opacity: 0.65
+  background-attachment: fixed
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+
+@media only screen and ( max-device-width: 1024px )
+  .parallax
+    background-attachment: scroll
+
+.title_logo
+  position: absolute
+  left: 0
+  top: 50%
+  width: 100%
+  text-align: center
+
+.text-blue
+  color: #487eec
+
+.bg-primary
+  background-color: #487eec
+
+.btn-primary
+  background-color: #487eec
+  font-weight: bold
+
+.btn-primary:hover
+  color: #fff
+  background-color: #52e1ab
+  border-color: #3db688
+
+// h1, h2, h3, h4
+//   color: #487eec
+//   font-weight: 600
+
+// h3
+//   font: size 30px
+//   line-height: 33px
+
+.bg-blue
+  background-color: #487ef6 !important
+
+.wide_paragraph
+  overflow: hidden
+  width: 100vw
+  // text-align: center
+
+.collapsing
+  height: 0
+  overflow: hidden
+  transition: height 0.35s ease
+
+.contenedor
+  height: 100%
+  width: 100%
+  display: flex
+  // position: fixed
+  align-items: center
+  justify-content: center
+  color: antiquewhite
+
+.inicio
+  background: rgb(255, 0, 0)
+  background: linear-gradient(135deg,rgba(255, 0, 0, 1) 0%, rgba(151, 0, 255, 1) 100%)
+
+.portfolio
+  background-color: #304ffe
+
+.contacto
+  background-color: #474747
