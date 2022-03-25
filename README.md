@@ -1,24 +1,29 @@
-# teidesat-page-cli
+# Teidesat Page CLI
 
-## Project setup
+## Instalar dependencias
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Montar el servidor
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilar la app para producción (carpeta dist)
+
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Ejecutar linter (debería hacerse automáticamente con el guardado)
+
 ```
 npm run lint
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
